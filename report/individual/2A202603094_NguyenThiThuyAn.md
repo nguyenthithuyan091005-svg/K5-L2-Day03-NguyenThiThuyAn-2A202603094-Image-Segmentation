@@ -38,7 +38,7 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 - Quy tắc và hành động sửa: Tôi dựa vào bó vỉa và chức năng sử dụng để xác định ranh, rồi đổi vùng đó từ `road` sang `sidewalk`.
 - Sau sửa: Tôi đã Save trong CVAT và export lại ZIP của task.
 
-Checkpoint `cp6_coverage` chưa có reference để tính metric. Tôi đã tự chạy scorer cho ba tier sau khi nhận reference: Easy 19,7/20, Medium 23,3/32, Hard 15,8/30; tổng tự đánh giá 58,8/82. Đây không phải điểm cuối trên 100. Tôi không đưa ground truth lên fork.
+Chạy scorer với tiers_gt.zip: Tổng ba tier đạt 71,9/82, chưa phải điểm cuối trên 100. Đơn giản vậy thôi rồi chỉnh sửa lại file và push nó lên repo với 2 file đã tải từ cvat
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
